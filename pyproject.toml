@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "yagoc"
+version = "0.1.0"
+description = "Yet another game of chess"
+authors = ["Sean Murphy"]
+license = "Closed for now"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pydantic = "^2.6.1"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0"
+ruff = "^0.2.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
